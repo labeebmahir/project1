@@ -170,3 +170,41 @@ footer p {margin:0;padding:10px;}
 https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
 */
 
+/* --------------------------- Mobile First Approach ---------------------------*/
+
+@media (min-width: 768px){
+	 header .container {flex-direction:row;justify-content: space-between;}
+	 header .container .branding {flex-direction: row;padding-left: 20px;}
+	 header .container .branding #co-name {padding-left:10px;}
+	 header .container .branding #logo, header .container .branding #co-name {margin-bottom:0;}   
+	 #showcase {min-height: 250px;}
+	 #showcase h1 {font-size: 32px;}  
+	 #box .container {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;	
+		align-items:baseline;
+	 }
+	 #box .container .item {width:46%;}
+	 #subquo .b3.subscribe {flex-direction:row;justify-content: center;}
+	 #subquo .b3.subscribe h1 {margin-right:20px;}
+	 #subquo .b3.subscribe form {width: 50%;flex-direction: row;justify-content: center;} 
+	 #subquo .b3.subscribe form input {width: 100%;}
+	 #subquo .b3.subscribe form button.btn-submit {margin-top: 0;}
+	 #subquo .b3.getquote {padding:20px;}
+	 #subquo .b3.getquote h1 {align-self: baseline;}
+	 #subquo .b3.getquote form {width:100%;}
+	 #subquo .b3.getquote form .inner-wrapper {
+		 display: flex; 
+		 justify-content: space-between;
+		 padding-top: 20px;
+	 }
+	 #subquo .b3.getquote form .inner-wrapper .col-3 {width:32%;}
+	 #subquo .b3.getquote form button.btn-submit {align-self: center;width: 32%;}
+}
+@media (min-width: 1100px){
+	 #box .container .item {width: 21%;margin-bottom:0;}
+	 #subquo .container {flex-direction:row;justify-content: space-between;}
+	 #subquo .container .b3 {padding:20px; width:45%;}
+	 #subquo .b3 h1 {font-size: 16px;}
+}
