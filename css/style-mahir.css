@@ -172,6 +172,7 @@ https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
 
 /* --------------------------- Mobile First Approach ---------------------------*/
 
+/*
 @media (min-width: 768px){
 	 header .container {flex-direction:row;justify-content: space-between;}
 	 header .container .branding {flex-direction: row;padding-left: 20px;}
@@ -208,3 +209,4 @@ https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
 	 #subquo .container .b3 {padding:20px; width:45%;}
 	 #subquo .b3 h1 {font-size: 16px;}
 }
+*/
