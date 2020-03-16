@@ -172,7 +172,7 @@ https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
 
 /* --------------------------- Mobile First Approach ---------------------------*/
 
-/*@media (min-width: 768px){
+@media (min-width: 768px){
 	 header .container {flex-direction:row;justify-content: space-between;}
 	 header .container .branding {flex-direction: row;padding-left: 20px;}
 	 header .container .branding #co-name {padding-left:10px;}
@@ -202,7 +202,7 @@ https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
 	 #subquo .b3.getquote form .inner-wrapper .col-3 {width:32%;}
 	 #subquo .b3.getquote form button.btn-submit {align-self: center;width: 32%;}
 }
-@media (min-width: 1100px){
+/*@media (min-width: 1100px){
 	 #box .container .item {width: 21%;margin-bottom:0;}
 	 #subquo .container {flex-direction:row;justify-content: space-between;}
 	 #subquo .container .b3 {padding:20px; width:45%;}
